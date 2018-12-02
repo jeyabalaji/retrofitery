@@ -1,4 +1,4 @@
-package components.android.jeyabalaji.retrofit.data;
+package components.android.jeyabalaji.retrofit.retrofit;
 
 import android.os.Build;
 import android.support.annotation.RequiresApi;
@@ -8,6 +8,8 @@ import com.google.gson.GsonBuilder;
 
 import java.util.List;
 
+import components.android.jeyabalaji.retrofit.data.Prediction;
+import components.android.jeyabalaji.retrofit.data.Prediction_;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

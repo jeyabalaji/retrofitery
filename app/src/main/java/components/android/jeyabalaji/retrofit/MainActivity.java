@@ -3,7 +3,7 @@ package components.android.jeyabalaji.retrofit;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import components.android.jeyabalaji.retrofit.data.RetrofitController;
+import components.android.jeyabalaji.retrofit.retrofit.RetrofitController;
 
 public class MainActivity extends AppCompatActivity
 {
