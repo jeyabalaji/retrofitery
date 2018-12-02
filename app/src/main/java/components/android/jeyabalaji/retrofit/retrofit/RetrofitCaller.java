@@ -16,7 +16,7 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-public class RetrofitController implements Callback<Prediction>
+public class RetrofitCaller implements Callback<Prediction>
 {
     private static String BASE_URL = "https://maps.googleapis.com/maps/";
     public void start() {
