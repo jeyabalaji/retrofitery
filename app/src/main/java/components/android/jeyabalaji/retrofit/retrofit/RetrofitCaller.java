@@ -9,7 +9,7 @@ import com.google.gson.GsonBuilder;
 import java.util.List;
 
 import components.android.jeyabalaji.retrofit.data.PredictionResponse;
-import components.android.jeyabalaji.retrofit.data.Prediction_;
+import components.android.jeyabalaji.retrofit.data.Prediction;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -44,7 +44,7 @@ public class RetrofitCaller implements Callback<PredictionResponse>
 
         if(response.isSuccessful()) {
             PredictionResponse predictionList = response.body();
-            List<Prediction_> actualList = predictionList.getPredictions();
+            List<Prediction> actualList = predictionList.getPredictions();
             actualList.forEach(prediction_ -> System.out.println(prediction_.getDescription()));
         }else {
             System.out.println(response.errorBody());

@@ -11,16 +11,16 @@ public class PredictionResponse
 
     @SerializedName("predictions")
     @Expose
-    private List<Prediction_> predictions = null;
+    private List<Prediction> predictions = null;
     @SerializedName("status")
     @Expose
     private String status;
 
-    public List<Prediction_> getPredictions() {
+    public List<Prediction> getPredictions() {
         return predictions;
     }
 
-    public void setPredictions(List<Prediction_> predictions) {
+    public void setPredictions(List<Prediction> predictions) {
         this.predictions = predictions;
     }
 
